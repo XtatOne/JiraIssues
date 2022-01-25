@@ -4,17 +4,17 @@
         <issue>
             <id>1</id>
             <type>task</type>
-            <priority>Critical</priority>
+            <priority>Highest</priority>
         </issue>
         <issue>
             <id>2</id>
             <type>task</type>
-            <priority>Critical</priority>
+            <priority>Highest</priority>
         </issue>
         <issue>
             <id>3</id>
             <type>task</type>
-            <priority>Critical</priority>
+            <priority>Highest</priority>
         </issue>
     </issues>
     <descriptions>

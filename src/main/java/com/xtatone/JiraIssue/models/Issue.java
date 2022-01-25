@@ -5,7 +5,8 @@ public class Issue {
     private int id;
     private String type;
     private String priority;
-    private Description description;
+    private String summary;
+    private String projectName;
 
     public Issue() {
     }
@@ -34,12 +35,20 @@ public class Issue {
         this.priority = priority;
     }
 
-    public Description getDescription() {
-        return description;
+    public String getSummary() {
+        return summary;
     }
 
-    public void setDescription(Description description) {
-        this.description = description;
+    public void setSummary(String summary) {
+        this.summary = summary;
+    }
+
+    public String getProjectName() {
+        return projectName;
+    }
+
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
     }
 
     @Override
@@ -48,7 +57,8 @@ public class Issue {
                 "id=" + id +
                 ", type='" + type + '\'' +
                 ", priority='" + priority + '\'' +
-                ", description=" + description +
+                ", summary='" + summary + '\'' +
+                ", projectName='" + projectName + '\'' +
                 '}';
     }
 }
